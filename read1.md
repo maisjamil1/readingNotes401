@@ -18,4 +18,4 @@ Binary search:is a technique used to search sorted data sets. It works by select
 
 This type of algorithm is described as O(log N).its extremely efficient when dealing with large data sets,Doubling the size of the input data set has little effect on its growth as after a single iteration of the algorithm the data set will be halved and therefore on a par with an input data set half the size.
 
-
+!img](https://www.geeksforgeeks.org/wp-content/uploads/Binary-Search.png)
