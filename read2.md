@@ -17,3 +17,16 @@ three different ways to define a module in Python:
 - A built-in module is intrinsically contained in the interpreter, like the itertools module.
 
 ### A module’s  are accessed the same way in all three cases: with the import statement.
+*import <module_name>
+*from <module_name> import <name(s)>
+### It is also possible to import individual objects but enter them into the local symbol table with alternate names:
+*from <module_name> import <name> as <alt_name>
+*import <module_name> as <alt_name>
+  
+  
+  ______________________________________
+  ### The dir() Function
+The built-in function dir() returns a list of defined names in a namespace. Without arguments, it produces an alphabetically sorted list of names in the current local symbol table:
+
+
+
