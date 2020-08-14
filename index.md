@@ -1,12 +1,11 @@
-## Welcome to GitHub Pages
+## Welcome to my reading notes
 
-You can use the [read1](read1.md) to maintain and preview the content for your website in Markdown files.
+[read1](read1.md)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### read1
+
 
 ```markdown
 Syntax highlighted code block
