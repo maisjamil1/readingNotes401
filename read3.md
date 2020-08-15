@@ -46,3 +46,25 @@ if x > 5:
 ```
 ### The AssertionError Exception ____assert ()
  We assert that a certain condition is met. If this condition turns out to be True, then that is excellent! The program can continue. If the condition turns out to be False, you can have the program throw an AssertionError exception.
+ 
+### In the try clause, all statements are executed until an exception is encountered.
+
+### except is used to catch and handle the exception(s) that are encountered in the try clause.
+
+### else lets you code sections that should run only when no exceptions are encountered in the try clause.
+
+### finally enables you to execute sections of code that should always run, with or without any previously encountered exceptions.
+```
+try:
+    linux_interaction()
+except AssertionError as error:
+    print(error)
+else:
+    try:
+        with open('file.log') as file:
+            read_data = file.read()
+    except FileNotFoundError as fnf_error:
+        print(fnf_error)
+finally:
+    print('Cleaning up, irrespective of any exceptions.')
+```
