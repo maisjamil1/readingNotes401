@@ -44,3 +44,5 @@ x = 10
 if x > 5:
     raise Exception('x should not exceed 5. The value of x was: {}'.format(x))
 ```
+### The AssertionError Exception ____assert ()
+ We assert that a certain condition is met. If this condition turns out to be True, then that is excellent! The program can continue. If the condition turns out to be False, you can have the program throw an AssertionError exception.
