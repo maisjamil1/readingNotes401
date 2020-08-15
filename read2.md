@@ -30,5 +30,17 @@ The built-in function dir() returns a list of defined names in a namespace. With
   ______________________________________
 
 #### Modules are often designed with the capability to run as a standalone script for purposes of testing the functionality that is contained within the module. This is referred to as unit testing. 
+  ______________________________________
+### Reloading a Module
+For reasons of efficiency, a module is only loaded once per interpreter session. 
+
+`>>> import mod
+a = [100, 200, 300]
+
+>>> import mod
+
+>>> import importlib
+>>> importlib.reload(mod)
+a = [100, 200, 300]`
 
 
