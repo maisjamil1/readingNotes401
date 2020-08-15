@@ -45,6 +45,7 @@ a = [100, 200, 300]
 a = [100, 200, 300]
 ```
 
+
 # pytest
 The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
 
@@ -55,4 +56,13 @@ The pytest framework makes it easy to write small tests, yet scales to support c
 
 - Rich plugin architecture, with over 315+ external plugins and thriving community;
 
+
+
+# Recursion
+
+The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function. 
+
+What is base condition in recursion?
+In the recursive program, the solution to the base case is provided and the solution of the bigger problem is expressed in terms of smaller problems.
+[recursion](https://lh3.googleusercontent.com/proxy/k2Awm_uar6pQGKTaVRXGt53jCIpfkQQaUusuPI2KqVouyVA73-kDUfMt0F9tJTuKUY5A9HvluLKlxjiugMv0J4kSdhOgxEfXbC9RG51PYbWDBAbR2xklhyJnphiPENtT)
 
