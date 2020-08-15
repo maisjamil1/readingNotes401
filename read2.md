@@ -48,4 +48,11 @@ a = [100, 200, 300]
 # pytest
 The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
 
+## Features
+- Detailed info on failing assert statements (no need to remember self.assert* names);
+
+- Auto-discovery of test modules and functions;
+
+- Rich plugin architecture, with over 315+ external plugins and thriving community;
+
 
