@@ -64,5 +64,5 @@ The process in which a function calls itself directly or indirectly is called re
 
 What is base condition in recursion?
 In the recursive program, the solution to the base case is provided and the solution of the bigger problem is expressed in terms of smaller problems.
-[recursion](https://lh3.googleusercontent.com/proxy/k2Awm_uar6pQGKTaVRXGt53jCIpfkQQaUusuPI2KqVouyVA73-kDUfMt0F9tJTuKUY5A9HvluLKlxjiugMv0J4kSdhOgxEfXbC9RG51PYbWDBAbR2xklhyJnphiPENtT)
+![recursion](https://lh3.googleusercontent.com/proxy/k2Awm_uar6pQGKTaVRXGt53jCIpfkQQaUusuPI2KqVouyVA73-kDUfMt0F9tJTuKUY5A9HvluLKlxjiugMv0J4kSdhOgxEfXbC9RG51PYbWDBAbR2xklhyJnphiPENtT)
 
