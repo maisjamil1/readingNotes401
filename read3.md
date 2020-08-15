@@ -16,3 +16,9 @@ try:
 finally:
     reader.close()
 ```
+
+### positional argument mode
+This argument is a string that contains multiple characters to represent how you want to open the file. The default and most common is 'r
+- 'r'	Open for reading (default)
+- 'w'	Open for writing, truncating (overwriting) the file first
+- 'rb' or 'wb'	Open in binary mode (read/write using byte data)
