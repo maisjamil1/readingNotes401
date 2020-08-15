@@ -27,6 +27,8 @@ three different ways to define a module in Python:
   ______________________________________
   ### The dir() Function
 The built-in function dir() returns a list of defined names in a namespace. Without arguments, it produces an alphabetically sorted list of names in the current local symbol table:
+  ______________________________________
 
+#### Modules are often designed with the capability to run as a standalone script for purposes of testing the functionality that is contained within the module. This is referred to as unit testing. 
 
 
