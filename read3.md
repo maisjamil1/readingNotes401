@@ -37,3 +37,10 @@ ______________________________________________________
 # Python Exceptions
 ![img](https://files.realpython.com/media/intro.8915db1758d8.png)
 
+### Raising an Exception
+We can use raise to throw an exception if a condition occurs. The statement can be complemented with a custom exception.
+```
+x = 10
+if x > 5:
+    raise Exception('x should not exceed 5. The value of x was: {}'.format(x))
+```
