@@ -34,13 +34,13 @@ The built-in function dir() returns a list of defined names in a namespace. With
 ### Reloading a Module
 For reasons of efficiency, a module is only loaded once per interpreter session. 
 
-`>>> import mod
+>>> import mod
 a = [100, 200, 300]
 
 >>> import mod
 
 >>> import importlib
 >>> importlib.reload(mod)
-a = [100, 200, 300]`
+a = [100, 200, 300]
 
 
