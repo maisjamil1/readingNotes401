@@ -32,3 +32,8 @@ This argument is a string that contains multiple characters to represent how you
 
 - .write(string)	This writes the string to the file.
 - .writelines(seq)	This writes the sequence to the file. No line endings are appended to each sequence item. It’s up to you to add the appropriate line ending(s).
+
+______________________________________________________
+# Python Exceptions
+![img](https://files.realpython.com/media/intro.8915db1758d8.png)
+
