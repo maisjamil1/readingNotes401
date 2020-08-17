@@ -16,3 +16,12 @@ Head - The Head is a reference type of type Node to the first node in a linked l
 reference is a reference type of type Node that is currently being looked at. This node is traditionally used when traversing through a full linked list. When traversing, you typically reset the current to the head to guarantee you are starting from the beginning of the linked list.
 
 
+The `Next` property is exceptionally important because it will lead us where the next node is and allow us to extract the data appropriately.
+The best way to approach a traversal is through the use of a `while()` loop. This allows us to continually check that the Next node in the list is not null. 
+
+## Parts of a linked list
+![img](https://miro.medium.com/max/700/1*K0_eV07tJtKQSVGKfP18bw.jpeg)
+- A linked list is made up of a series of nodes, which are the elements of the list.
+- The starting point of the list is a reference to the first node, which is referred to as the head. 
+- The end of the list isn’t a node, but rather a node that points to null, or an empty value.
+- A single node is also pretty simple. It has just two parts: data, or the information that the node contains, and a reference to the next node.
