@@ -22,9 +22,17 @@ suppose that you need to use the name ps1, which is defined in sys. If you know 
 ```
  ## LEGB 
  stand for Local, Enclosing, Global, and Built-in scopes.
+ The LEGB rule is a kind of name lookup procedure, which determines the order in which Python looks up names. For example, if you reference a given name, then Python will look that name up sequentially in the local, enclosing, global, and built-in scope. If the name exists, then you’ll get the first occurrence of it. Otherwise, you’ll get an error.
  
-## Global scope: 
+### Global scope (or module): 
 The names that you define in this scope are available to all your code.
 
-## Local scope:
-The names that you define in this scope are only available or visible to the code within the scope.
+
+### Local (or function) scope 
+is the code block or body of any Python function or lambda expression. This Python scope contains the names that you define inside the function. These names will only be visible from the code of the function. 
+
+### Enclosing (or nonlocal) scop
+e is a special scope that only exists for nested functions. If the local scope is an inner or nested function, then the enclosing scope is the scope of the outer or enclosing function. This scope contains the names that you define in the enclosing function. The names in the enclosing scope are visible from the code of the inner and enclosing functions.
+
+### Built-in scope
+is a special Python scope that’s created or loaded whenever you run a script or open an interactive session. This scope contains names such as keywords, functions, exceptions, and other attributes that are built into Python. Names in this Python scope are also available from everywhere in your code. It’s automatically loaded by Python when you run a program or script.
