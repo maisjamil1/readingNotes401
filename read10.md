@@ -20,4 +20,4 @@ This means that the first item added in the stack will be the last item popped o
 - Last In First Out
 This means that the last item added to the stack will be the first item popped out of the stack.
 
-[stack](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/images/stack1.PNG)
+![stack](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-10/resources/images/stack1.PNG)
