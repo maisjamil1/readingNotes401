@@ -14,3 +14,13 @@
 * Using NumPy To Read In Files
 It’s possible to use NumPy to directly read csv or other files into arrays. We can do this using the `numpy.genfromtxt function`. 
 
+### NumPy Data Types
+ * NumPy array can store elements of a single data type. 
+ * NumPy stores values using its own data types, which are distinct from Python types like float and str. This is because the core of NumPy is written in a programming language called C, which stores data differently than the Python data types. NumPy data types map between Python and C, allowing us to use NumPy arrays without any conversion hitches.
+
+*You can find the data type of a NumPy array by accessing the dtype property:
+```
+thing.dtype
+
+```
+
