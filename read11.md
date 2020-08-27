@@ -11,4 +11,6 @@
 
 # NumPy 
 * NumPy is a commonly used Python data analysis package. By using NumPy, you can speed up your workflow, and interface with other packages in the Python ecosystem.
+* Using NumPy To Read In Files
+It’s possible to use NumPy to directly read csv or other files into arrays. We can do this using the `numpy.genfromtxt function`. 
 
