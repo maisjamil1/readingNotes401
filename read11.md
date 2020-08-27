@@ -23,4 +23,10 @@ It’s possible to use NumPy to directly read csv or other files into arrays. We
 thing.dtype
 
 ```
+### NumPy has several different data types, which mostly map to Python data types, like float, and str. here are a few important ones:
+
+- float — numeric floating point data.
+- int — integer data.
+- string — character data.
+- object — Python objects.
 
