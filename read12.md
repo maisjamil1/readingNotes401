@@ -1,3 +1,4 @@
+# pandas
 ## What kind of data does pandas handle?
 When working with tabular data, such as data stored in spreadsheets or databases, pandas is the right tool for you. pandas will help you to explore, clean and process your data. In pandas, a data table is called a DataFrame.
 ## DataFrame
