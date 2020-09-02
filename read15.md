@@ -9,3 +9,8 @@
 ## Traversals
 There are two categories of traversals when it comes to trees:
 Depth First &  Breadth First
+### Binary Trees
+ Binary Trees restrict the number of children to two (hence our left and right children).
+
+There is no specific sorting order for a binary tree. Nodes can be added into a binary tree wherever space allows. Here is what a binary tree looks like:
+[](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-15/resources/images/BinaryTree2.PNG)
