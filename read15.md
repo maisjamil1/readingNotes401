@@ -6,3 +6,6 @@
 `Edge `- The edge in a tree is the link between a parent and child node
 `Leaf` - A leaf is a node that does not contain any children
 `Height` - The height of a tree is determined by the number of edges from the root to the bottommost node
+## Traversals
+There are two categories of traversals when it comes to trees:
+Depth First &  Breadth First
