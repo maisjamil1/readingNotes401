@@ -14,3 +14,27 @@ Supervised learning includes tasks for "labeled" data (i.e. you have a target va
 
 * Unsupervised Learning
 Unsupervised learning includes tasks for "unlabeled" data (i.e. you do not have a target variable).
+
+### The Blueprint
+Our machine learning blueprint is designed around those 3 elements.
+
+There are 5 core steps:
+1- Exploratory Analysis
+
+First, "get to know" the data. This step should be quick, efficient, and decisive.
+
+2- Data Cleaning
+
+Then, clean your data to avoid many common pitfalls. Better data beats fancier algorithms.
+
+3- Feature Engineering
+
+Next, help your algorithms "focus" on what's important by creating new features.
+
+4- Algorithm Selection
+
+Choose the best, most appropriate algorithms without wasting your time.
+
+5- Model Training
+
+Finally, train your models. This step is pretty formulaic once you've done the first 4.
