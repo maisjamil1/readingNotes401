@@ -56,3 +56,14 @@ However, proper data cleaning can make or break your project. Professional data 
 Why? Because of a simple truth in machine learning:
 
 Better data beats fancier algorithms.
+
+## What is Feature Engineering?
+Feature engineering is about creating new input features from your existing ones.
+
+In general, you can think of data cleaning as a process of subtraction and feature engineering as a process of addition.
+
+This is often one of the most valuable tasks a data scientist can do to improve model performance, for 3 big reasons:
+
+You can isolate and highlight key information, which helps your algorithms "focus" on what’s important.
+You can bring in your own domain expertise.
+Most importantly, once you understand the "vocabulary" of feature engineering, you can bring in other people’s domain expertise!
