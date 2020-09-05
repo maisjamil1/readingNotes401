@@ -19,6 +19,7 @@ Unsupervised learning includes tasks for "unlabeled" data (i.e. you do not have 
 Our machine learning blueprint is designed around those 3 elements.
 
 There are 5 core steps:
+
 1- Exploratory Analysis
 
 First, "get to know" the data. This step should be quick, efficient, and decisive.
