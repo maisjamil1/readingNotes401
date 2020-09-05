@@ -40,7 +40,7 @@ Choose the best, most appropriate algorithms without wasting your time.
 
 Finally, train your models. This step is pretty formulaic once you've done the first 4.
 
-### Start with Basics
+## Start with Basics
 First, you'll want to answer a set of basic questions about the dataset:
 
 How many observations do I have?
@@ -67,3 +67,12 @@ This is often one of the most valuable tasks a data scientist can do to improve 
 You can isolate and highlight key information, which helps your algorithms "focus" on what’s important.
 You can bring in your own domain expertise.
 Most importantly, once you understand the "vocabulary" of feature engineering, you can bring in other people’s domain expertise!
+## Model Training
+- Split Dataset
+
+Think of your data as a limited resource.
+You can spend some of it to train your model (i.e. feed it to the algorithm).
+You can spend some of it to evaluate (test) your model.
+But you can’t reuse the same data for both!
+If you evaluate your model on the same data you used to train it, your model could be very overfit and you wouldn’t even know! A model should be judged on its ability to predict new, unseen data.
+
