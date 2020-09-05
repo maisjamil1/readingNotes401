@@ -39,3 +39,20 @@ Choose the best, most appropriate algorithms without wasting your time.
 5- Model Training
 
 Finally, train your models. This step is pretty formulaic once you've done the first 4.
+
+### Start with Basics
+First, you'll want to answer a set of basic questions about the dataset:
+
+How many observations do I have?
+How many features?
+What are the data types of my features? Are they numeric? Categorical?
+Do I have a target variable?
+
+## Data cleaning
+Data cleaning is one those things that everyone does but no one really talks about. Sure, it’s not the "sexiest" part of machine learning. And no, there aren’t hidden tricks and secrets to uncover.
+
+However, proper data cleaning can make or break your project. Professional data scientists usually spend a very large portion of their time on this step.
+
+Why? Because of a simple truth in machine learning:
+
+Better data beats fancier algorithms.
