@@ -45,7 +45,7 @@ urllib.request.urlretrieve(download_url,'./'+link[link.find('/turnstile_')+1:])
   time.sleep(1)
 
   ```
-  Now that we understand how to download a file, let’s try downloading the entire set of data files with a for loop. The code below contains the entire set of code for web scraping the NY MTA turnstile data.
+
   
   
 
