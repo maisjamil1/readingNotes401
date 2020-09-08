@@ -8,3 +8,5 @@ used for parsing text data files to find, replace, or delete certain string, etc
 
 
 ![](https://www.optimizesmart.com/wp-content/uploads/2010/06/regex-cheatsheet-for-Google-Analytics1.jpg)
+
+ useful functions provided by the re library, such as: compile(), search(), findall(), sub() for search and replace, split().
