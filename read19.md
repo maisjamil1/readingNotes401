@@ -36,3 +36,26 @@ heading  = r'<h1>TITLE</h1>'
 re.match(r'<.*?>', heading).group()
 '<h1>'
 ```
+
+
+```
+statement = "Please contact us at: support@datacamp.com, xyz@datacamp.com"
+
+#'addresses' is a list that stores all the possible match
+addresses = re.findall(r'[\w\.-]+@[\w\.-]+', statement)
+for address in addresses:
+    print(address)
+    
+#support@datacamp.com
+#xyz@datacamp.com
+```
+
+```
+statement = "Please contact us at: xyz@datacamp.com, support@datacamp.com"
+pattern = re.compile(r'[:,]')
+
+address = pattern.split(statement)
+print(address)
+#['Please contact us at', ' xyz@datacamp.com', ' support@datacamp.com']
+
+```
