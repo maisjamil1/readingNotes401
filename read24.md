@@ -38,6 +38,8 @@ class CustomUser(AbstractUser):
 ```
 
 - create users/`forms.py`
+
+
 - in forms.py write :
 ```python
 from django import forms
@@ -53,4 +55,25 @@ class CustomUserChangeForm(UserChangeForm):
     class Meta:
         model = CustomUser
         fields = ('username', 'email')
+```
+
+go to users/`admin.py` ----> add :
+```python
+from django.contrib import admin
+
+from django.contrib.auth import get_user_model
+from django.contrib.auth.admin import UserAdmin
+
+from .forms import CustomUserCreationForm, CustomUserChangeForm
+from .models import CustomUser
+
+class CustomUserAdmin(UserAdmin):
+    add_form = CustomUserCreationForm
+    form = CustomUserChangeForm
+    model = CustomUser
+    list_display = ['email', 'username',]
+
+admin.site.register(CustomUser, CustomUserAdmin)
+
+
 ```
