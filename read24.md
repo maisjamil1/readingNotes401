@@ -84,6 +84,11 @@ in ubuntu ---->
 - `python manage.py runserver`
 ______________________________________________
 - go to `settings.py`----> `import os`
--go to `settings.py`---->`TEMPLATES`--->`'DIRS': [os.path.join(BASE_DIR, 'templates')],`
+- go to `settings.py`---->`TEMPLATES`--->`'DIRS': [os.path.join(BASE_DIR, 'templates')],`
+- go to `settings.py`----> 
+```python
+LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
+```
 
 
