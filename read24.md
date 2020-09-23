@@ -37,4 +37,4 @@ class CustomUser(AbstractUser):
         return self.username
 ```
 
-
+create users/`forms.py`
