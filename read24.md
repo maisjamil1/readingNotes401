@@ -33,7 +33,7 @@ Multiply it by a prime number such as 599.
 Use modulo to get the remainder of the result, when divided by the total size of the array.
 Insert into the array at that index.
 
--Collisions
+- Collisions
 A collision occurs when more than one key hashes to the same index in an array. As mentioned earlier, a “perfect hash” will never have any collisions. To put this into perspective, the worst possible hash is one that hashes every single key to the same exact index of an array. The more keys you have hashed to a specific index, the more key/value pair combos you can potentially have.
 
 - Bucket Sizes
