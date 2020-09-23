@@ -77,3 +77,6 @@ admin.site.register(CustomUser, CustomUserAdmin)
 
 
 ```
+in ubuntu ---->`python manage.py makemigrations users`
+`python manage.py migrate`
+`python manage.py createsuperuser`
