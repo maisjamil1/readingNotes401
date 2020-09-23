@@ -198,5 +198,31 @@ Create four (4) templates files :
     ]
 
     ```
+- **Create** <app>.urls.py then **fill** it with :
+
+    ```
+    from django.urls import path
+    from .views import SignUpView
+
+    urlpatterns = [
+        path('signup/', SignUpView.as_view(), name='signup'),
+    ]
+    ```
+
+- Last step, In <app>.views fill with :
+
+    ```
+    from django.urls import reverse_lazy
+    from django.views.generic.edit import CreateView
+
+    from .forms import CustomUserCreationForm
+
+    class SignUpView(CreateView):
+        form_class = CustomUserCreationForm
+        success_url = reverse_lazy('login')
+        template_name = 'registration/signup.html'
+    ```
+
+    
 
 
