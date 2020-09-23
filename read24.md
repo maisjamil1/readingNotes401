@@ -82,3 +82,8 @@ in ubuntu ---->
 - `python manage.py migrate`
 - `python manage.py createsuperuser`
 - `python manage.py runserver`
+______________________________________________
+- go to `settings.py`----> `import os`
+-go to `settings.py`---->`TEMPLATES`--->`'DIRS': [os.path.join(BASE_DIR, 'templates')],`
+
+
