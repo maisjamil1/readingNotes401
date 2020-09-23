@@ -17,3 +17,25 @@ The basic idea of a hashtable is the ability to store the key into this data str
 
 Since we are able to hash our key and determine the exact location where our value is stored, we can do a lookup in an O(1) time complexity. This is ideal when quick lookups are required.
 
+
+
+### Structure
+- Hashing
+
+Basically, a hash code turns a key into an integer. It’s very important that hash codes are deterministic: their output is determined only by their input. Hash codes should never have randomness to them. The same key should always produce the same hash code.
+
+Creating a Hash
+
+A hashtable traditionally is created from an array. I always like the size 1024. this is important for index placement. After you have created your array of the appropriate size, do some sort of logic to turn that “key” into a numeric number value. Here is a possible suggestion:
+
+Add or multiply all the ASCII values together.
+Multiply it by a prime number such as 599.
+Use modulo to get the remainder of the result, when divided by the total size of the array.
+Insert into the array at that index.
+
+-Collisions
+A collision occurs when more than one key hashes to the same index in an array. As mentioned earlier, a “perfect hash” will never have any collisions. To put this into perspective, the worst possible hash is one that hashes every single key to the same exact index of an array. The more keys you have hashed to a specific index, the more key/value pair combos you can potentially have.
+
+- Bucket Sizes
+Hash Maps can have any number of buckets. If a hash map has only a few buckets it will be densely full and have many collisions. If a hash map has more buckets it will be more sparsely populated, there will be less collisions, but there may be a lot of extra empty space.
+
