@@ -27,5 +27,14 @@ AUTH_USER_MODEL = 'users.CustomUser'
 
 ```
 go to users/models.py ----> 
+```python
+from django.db import models
+from django.contrib.auth.models import AbstractUser
+class CustomUser(AbstractUser):
+    pass
+
+    def __str__(self):
+        return self.username
+```
 
 
