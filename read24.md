@@ -12,7 +12,7 @@
 - `python manage.py startapp users`
 -  `python manage.py runserver`&#x1F534;: DO NOT DO python manage.py migrate
 _____________________________________________________________
-go to settings ----> 
+go to `settings.py` ----> 
 ```python
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -26,7 +26,7 @@ INSTALLED_APPS = [
 AUTH_USER_MODEL = 'users.CustomUser'
 
 ```
-go to users/models.py ----> 
+go to `users/models.py` ----> 
 ```python
 from django.db import models
 from django.contrib.auth.models import AbstractUser
