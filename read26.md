@@ -102,3 +102,4 @@ urlpatterns = [
 ]
 
 ```
+- `python manage.py  runserver`
