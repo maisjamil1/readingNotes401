@@ -132,4 +132,5 @@ services:
 - in the `settings.py` --->add `ALLOWED_HOSTS = ['0.0.0.0',]`
 - `python manage.py runserver 0.0.0.0:8000`
 -`docker-compose up`
--open docker
+- open docker
+-`poetry export -f requirements.txt -o requirements.txt`
