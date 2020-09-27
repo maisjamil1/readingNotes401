@@ -135,7 +135,7 @@ services:
 - open docker
 - `docker-compose up`
 - if it didnt work:
-- open docker-->dashboard --->start--->open in window
+- open docker-->dashboard --->start--->open in window  settings#ALLOWED_HOSTS = ['0.0.0.0','localhost','127.0.0.1']
 - or try:
 - `docker-compose down`
 - `docker-compose build`
