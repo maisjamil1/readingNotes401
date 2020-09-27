@@ -1,1 +1,11 @@
+- `mkdir drf-api`
+- `cd drf-api`
+- `poetry init -n`
+- `poetry add django djangorestframework`
+- `poetry shell`
+- `django-admin strartproject movies_project .`
+- `python manage.py  migrate`
+- `python manage.py  startapp movie`
+- `python manage.py  createsuperuser`
+- `python manage.py  runserver`
 
