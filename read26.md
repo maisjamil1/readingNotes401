@@ -26,4 +26,16 @@ class Movies(models.Model):
         return self.title
 
 ```
+-- `python manage.py makemigrations movie`
 
+go to  movie/`admin.py` ----> add :
+```python
+from django.contrib import admin
+
+from .models import Movies
+# Register your models here.
+
+admin.site.register(Movies)
+
+
+```
