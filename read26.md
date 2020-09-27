@@ -26,9 +26,10 @@ class Movies(models.Model):
         return self.title
 
 ```
--- `python manage.py makemigrations movie`
+- `python manage.py makemigrations movie`
+- `python manage.py migrate`
 
-go to  movie/`admin.py` ----> add :
+- go to  movie/`admin.py` ----> add :
 ```python
 from django.contrib import admin
 
