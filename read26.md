@@ -129,4 +129,5 @@ services:
       - "8000:8000"
 
 ```
-
+- in the `settings.py` --->add `ALLOWED_HOSTS = ['0.0.0.0',]`
+- `python manage.py runserver 0.0.0.0:8000`
