@@ -41,5 +41,5 @@ admin.site.register(Movies)
 ```
 - `python manage.py runserver`
 - do tests
-
+- in the `settings.py` ---> INSTALLED_APPS --->add the app to project applications `'rest_framework',`
 
