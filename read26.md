@@ -38,5 +38,8 @@ from .models import Movies
 
 admin.site.register(Movies)
 
-
 ```
+- `python manage.py runserver`
+- do tests
+
+
