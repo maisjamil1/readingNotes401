@@ -134,4 +134,11 @@ services:
 - `poetry export -f requirements.txt -o requirements.txt`
 - open docker
 - `docker-compose up`
+- if it didnt work:
+- open docker-->dashboard --->start--->open in window
+- or try:
+- `docker-compose down`
+- `docker-compose build`
+- `docker-compose up`
+
 
