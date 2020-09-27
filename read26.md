@@ -74,7 +74,7 @@ class MoviesSerializer(serializers.ModelSerializer):
         model = Movies
 
 ```
-- in movie/`urls.py`:
+- in movie/`views.py`:
 ```python 
 from django.shortcuts import render
 from rest_framework import generics
@@ -89,4 +89,16 @@ class MoviesList(generics.ListCreateAPIView):
 class MovieDetails(generics.RetrieveUpdateDestroyAPIView):
     queryset = Movies.objects.all()
     serializer_class = MoviesSerializer
+```
+- in movie/`urls.py`:
+```python
+from django.urls import path
+
+from .views import MoviesList, MovieDetails
+
+urlpatterns = [
+    path('', MoviesList.as_view(), name='movies'),
+    path('<int:pk>/', MovieDetails.as_view(), name='movie_details') 
+]
+
 ```
