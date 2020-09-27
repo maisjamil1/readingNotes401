@@ -50,4 +50,14 @@ REST_FRAMEWORK = {
     ]
 }
 ```
+- in mpvies_project/`url.py`:
+```python
+from django.contrib import admin
+from django.urls import path, include
 
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('api/v1/posts/', include('movie.urls')),
+]
+
+```
