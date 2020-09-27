@@ -9,4 +9,4 @@
 - `python manage.py  createsuperuser`
 - `python manage.py  runserver`
 ______________________________________________
-- in the settings.py ---> INSTALLED_APPS --->add the app to project applications 'movie.apps.MovieConfig',
+- in the `settings.py` ---> INSTALLED_APPS --->add the app to project applications `'movie.apps.MovieConfig',`
