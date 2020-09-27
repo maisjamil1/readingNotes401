@@ -61,7 +61,32 @@ urlpatterns = [
 ]
 
 ```
+
+- create movie/`serializer.py` to convert data to json:
+```python
+from rest_framework import serializers
+
+from .models import Movies
+
+class MoviesSerializer(serializers.ModelSerializer):
+    class Meta:
+        fields = ('id', 'title', 'author', 'body', 'created_at')
+        model = Movies
+
+```
 - in movie/`urls.py`:
 ```python 
+from django.shortcuts import render
+from rest_framework import generics
 
+from .models import Movies
+from .serializer import MoviesSerializer
+
+class MoviesList(generics.ListCreateAPIView):
+    queryset = Movies.objects.all()
+    serializer_class = MoviesSerializer
+
+class MovieDetails(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Movies.objects.all()
+    serializer_class = MoviesSerializer
 ```
