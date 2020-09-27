@@ -104,7 +104,7 @@ urlpatterns = [
 
 ```
 - `python manage.py  runserver`
-- in root create `DOCKERfile` inside it write:
+- in root create `Dockerfile` inside it write:
 ```
 FROM python:3
 ENV PYTHONDONTWRITEBYTECODE 1
