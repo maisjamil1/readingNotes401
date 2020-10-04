@@ -1,12 +1,13 @@
 Core Concepts
 Elements and JSX
 This is the basic syntax for a React element:
-
+```
 // In a nutshell, JSX allows us to write HTML in our JS
 // JSX can use any valid html tags (i.e. div/span, h1-h6, form/input, etc)
 <div>Hello React</div> 
+```
 JSX elements are expressions:
-
+```
 // as an expression, JSX can be assigned to variables...
 const greeting = <div>Hello React</div>;
 
@@ -21,14 +22,16 @@ function sayGreeting() {
     return <div>Hi again, React</div>;
   }
 }
+```
 JSX allows us to nest expressions:
-
+```
 const year = 2020;
 // we can insert primitive JS values in curly braces: {}
 const greeting = <div>Hello React in {year}</div>;
 // trying to insert objects will result in an error
+```
 JSX allows us to nest elements:
-
+```
 // to write JSX on multiple lines, wrap in parentheses: ()
 const greeting = (
   // div is the parent element
@@ -40,8 +43,10 @@ const greeting = (
 );
 // 'parents' and 'children' are how we describe JSX elements in relation
 // to one another, like we would talk about HTML elements
-HTML and JSX have a slightly different syntax:
 
+```
+HTML and JSX have a slightly different syntax:
+```
 // Empty div is not <div></div> (HTML), but <div/> (JSX)
 <div/>
 
@@ -50,6 +55,7 @@ HTML and JSX have a slightly different syntax:
 
 // Attributes are written in camelcase for JSX (like JS variables
 <button className="submit-button">Submit</button> // not 'class' (HTML)
+```
 The most basic React app requires three things:
 
 ReactDOM.render() to render our app
@@ -65,7 +71,7 @@ const greeting = <h1>Hello React</h1>;
 ReactDOM.render(greeting, document.getElementById("root"));
 Components and Props
 This is the syntax for a basic React component:
-
+```
 import React from "react";
 
 // 1st component type: function component
@@ -96,8 +102,9 @@ const Header = () => <h1>Hello React</h1>;
 // ...we use them as 'custom' JSX elements
 ReactDOM.render(<Header />, document.getElementById("root"));
 // renders: <h1>Hello React</h1>
+```
 Components can be reused across our app:
-
+```
 // for example, this Header component can be reused in any app page
 
 // this component shown for the '/' route
@@ -186,8 +193,9 @@ function AboutPage() {
     </Layout>
   );
 }
+```
 Conditionally displaying components with ternaries and short-circuiting:
-
+```
 // if-statements are fine to conditionally show , however...
 // ...only ternaries (seen below) allow us to insert these conditionals
 // in JSX, however
@@ -204,10 +212,11 @@ function Header() {
     </nav>
   );
 }
+```
 Fragments are special components for displaying multiple components without adding an extra element to the DOM.
 
 Fragments are ideal for conditional logic:
-
+```
 // we can improve the logic in the previous example
 // if isAuthenticated is true, how do we display both AuthLinks and Greeting?
 function Header() {
@@ -229,6 +238,7 @@ function Header() {
     </nav>
   );
 }
+```
 Lists and Keys
 Use .map() to convert lists of data (arrays) into lists of elements:
 
