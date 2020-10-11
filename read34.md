@@ -24,3 +24,15 @@ This revelation suggests the issue isn't solely about ethics, but rather it's al
 
 
 Self-driving cars will also introduce new forms of human control. Not having to own a vehicle and hiring one only when it's needed will itself be a major new form – one that will likely give many people more control over their monthly finances. Passengers are also likely to have more choice over vehicle settings, preferences and routes, not to mention what they do while they're in the car.
+
+
+## The code I’m still ashamed of
+If you write code for a living, there’s a chance that at some point in your career, someone will ask you to code something a little deceitful – if not outright unethical.
+
+As developers, we are often one of the last lines of defense against potentially dangerous and unethical practices.
+
+We’re approaching a time where software will drive the vehicle that transports your family to soccer practice. There are already AI programs that help doctors diagnose disease. It’s not hard to imagine them recommending prescription drugs soon, too.
+
+The more software continues to take over every aspect of our lives, the more important it will be for us to take a stand and ensure that our ethics are ever-present in our code.
+
+we need  to think twice about the effects of my code before we write it.
